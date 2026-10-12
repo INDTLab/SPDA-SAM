@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```
 
 ### Data Sets
-We provide data sets used in the paper: [LIACI](https://drive.google.com/file/d/1DuNEW3zKsIz3tIuu4T1p0k0TW92RctZ4/view?usp=drive_link), [UIIS](https://drive.google.com/file/d/1MwGvsr2kJgKBGbU3zoZlXiqSSiP1ysGR/view?usp=sharing), [USIS10K](https://drive.google.com/file/d/1LdjLPaieWA4m8vLV6hEeMvt5wHnLg9gV/view?usp=sharing), [UIIS10K](https://drive.google.com/file/d/1MYQwWrQW_n9N-q_VPMuQaroIp5gS2f-u/view?usp=sharing)
+We provide data sets used in the paper: [LIACI](https://drive.google.com/file/d/1DuNEW3zKsIz3tIuu4T1p0k0TW92RctZ4/view?usp=drive_link), [UIIS](https://drive.google.com/file/d/1MwGvsr2kJgKBGbU3zoZlXiqSSiP1ysGR/view?usp=sharing), [USIS10K](https://drive.google.com/file/d/1LdjLPaieWA4m8vLV6hEeMvt5wHnLg9gV/view?usp=sharing), [UIIS10K](https://drive.google.com/file/d/1MYQwWrQW_n9N-q_VPMuQaroIp5gS2f-u/view?usp=sharing), [USIS16K](https://drive.google.com/file/d/14tbW3Ie8MfVjQy9DJKXnFlJ_g-6Z6xcX/view?usp=drive_link), [ZeroWaste](https://doi.org/10.5281/zenodo.4899926), [COME15K](https://drive.google.com/file/d/15UdZBdtmwxq7PiCHUpkMgnUxbLF1p_O5/view?usp=drive_link), (DSIS)(https://drive.google.com/file/d/1zqWo6vSB4ARJqu49PqoyKatj9xxolsPp/view?usp=drive_link), (SIP)[https://drive.google.com/file/d/1ebNjyrS28vEXDGawxHxVFNNxz3XLBqrT/view?usp=drive_link]
 
 ### Models Weights
 The model weights for DGD-SAM are available here: [GoogleLink](https://drive.google.com/drive/folders/1s_pW87WROV2KXSUwsRXsvxX5UXJuiacs?usp=drive_link)
