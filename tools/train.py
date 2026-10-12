@@ -16,7 +16,7 @@ from mmdet.utils import setup_cache_size_limit_of_dynamo
 # import mmdet.Efficient_SAM
 # import mmdet.SAM
 
-import mmdet.rsprompter
+import mmdet.spdasam
 
 os.environ["WANDB_MODE"] = "disabled" # 禁用wandb
 # os.environ["CUDA_VISIBLE_DEVICES"] = "4"
