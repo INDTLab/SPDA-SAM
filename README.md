@@ -1,14 +1,14 @@
-![](./imgs/DGD-SAM_head.png)
+![](./imgs/SPDA-SAM_head.png)
 
 <p align="center"> 
 <!-- <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320324002188" ><img src="https://img.shields.io/badge/HOME-PR-blue.svg"></a> -->
-<a href="https://indtlab.github.io/projects/DGD-SAM" ><img src="https://img.shields.io/badge/HOME-Paper-important.svg"></a>
-<a href="https://INDTLab.github.io/projects/Packages/DGD-SAM/Data/DGD-SAM.pdf" ><img src="https://img.shields.io/badge/PDF-Paper-blueviolet.svg"></a>
+<a href="https://indtlab.github.io/projects/SPDA-SAM" ><img src="https://img.shields.io/badge/HOME-Paper-important.svg"></a>
+<a href="https://INDTLab.github.io/projects/Packages/SPDA-SAM/Data/SPDA-SAM.pdf" ><img src="https://img.shields.io/badge/PDF-Paper-blueviolet.svg"></a>
 <!-- <a href="https://indtlab.github.io/projects/WRD-Net" ><img src="https://img.shields.io/badge/-WeightsFiles-blue.svg"></a> -->
 </p>
 
 # Architecture
-![](./imgs/DGD-SAM_method.png)
+![](./imgs/SPDA-SAM_method.png)
 
 # Usage
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 We provide data sets used in the paper: [LIACI](https://drive.google.com/file/d/1DuNEW3zKsIz3tIuu4T1p0k0TW92RctZ4/view?usp=drive_link), [UIIS](https://drive.google.com/file/d/1MwGvsr2kJgKBGbU3zoZlXiqSSiP1ysGR/view?usp=sharing), [USIS10K](https://drive.google.com/file/d/1LdjLPaieWA4m8vLV6hEeMvt5wHnLg9gV/view?usp=sharing), [UIIS10K](https://drive.google.com/file/d/1MYQwWrQW_n9N-q_VPMuQaroIp5gS2f-u/view?usp=sharing), [USIS16K](https://drive.google.com/file/d/14tbW3Ie8MfVjQy9DJKXnFlJ_g-6Z6xcX/view?usp=drive_link), [ZeroWaste](https://doi.org/10.5281/zenodo.4899926), [KITTI](https://www.cvlibs.net/datasets/kitti/), [COME15K](https://drive.google.com/file/d/15UdZBdtmwxq7PiCHUpkMgnUxbLF1p_O5/view?usp=drive_link), [DSIS](https://drive.google.com/file/d/1zqWo6vSB4ARJqu49PqoyKatj9xxolsPp/view?usp=drive_link), [SIP](https://drive.google.com/file/d/1ebNjyrS28vEXDGawxHxVFNNxz3XLBqrT/view?usp=drive_link)
 
 ### Models Weights
-The model weights for DGD-SAM are available here: [GoogleLink](https://drive.google.com/drive/folders/1s_pW87WROV2KXSUwsRXsvxX5UXJuiacs?usp=drive_link)
+The model weights for SPDA-SAM are available here: [GoogleLink](https://drive.google.com/drive/folders/1s_pW87WROV2KXSUwsRXsvxX5UXJuiacs?usp=drive_link)
 
 ### Train
 ```
@@ -63,13 +63,12 @@ NUM_GPUS \
  ```
 ### Citation
 ```
-@article{尚毅涵 2026 DGD-SAM：一种用于水下图像实例分割的动态引导SAM,
-title={DGD-SAM：一种用于水下图像实例分割的动态引导SAM},
-author={尚毅涵 and 董兴辉},
-journal={电子学报},
-pages={1-13},
-year={2026},
-doi={10.12263/DZXB.C251002.R1},
+@article{shang2026spda,
+  title={SPDA-SAM: A Self-prompted Depth-Aware Segment Anything Model for Instance Segmentation},
+  author={Shang, Yihan and Wang, Wei and Huang, Chao and Dong, Junyu and Dong, Xinghui},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2026},
+  publisher={IEEE}
 }
 ```
 
