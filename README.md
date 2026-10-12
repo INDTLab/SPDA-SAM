@@ -48,14 +48,14 @@ The model weights for SPDA-SAM are available here: [GoogleLink](https://drive.go
 ### Train
 ```
 bash ./tools/dist_train.sh \
-./configs/rsprompter/SPDASAM.py \
+./configs/spdasam/spdasam_LIACI.py \
 NUM_GPUS \
 --work-dir ./work_dirs/output"
 ```
 ### Test
  ```
 bash ./tools/dist_test.sh \
-./configs/rsprompter/SPDASAM.py \
+./configs/spdasam/spdasam_LIACI.py \
 NUM_GPUS \
 ./work_dirs/output/segm_map_liaci.pth \
 --work-dir ./work_dirs/test \
