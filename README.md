@@ -21,13 +21,13 @@
 - MMCV 2.0 or higher, recommended 2.1
 ```
 ### Installation
-1. Create a virtual environment named `DGDSAM`:   
+1. Create a virtual environment named `SPDASAM`:   
 ```
-conda create -n DGDSAM python=3.10 -y
+conda create -n SPDASAM python=3.10 -y
 ```     
 2. Activate the new environment:  
 ```
-conda activate DGDSAM
+conda activate SPDASAM
 ```    
 3. Install dependencies:  
 ```
@@ -48,14 +48,14 @@ The model weights for SPDA-SAM are available here: [GoogleLink](https://drive.go
 ### Train
 ```
 bash ./tools/dist_train.sh \
-./configs/rsprompter/dgdsam.py \
+./configs/rsprompter/SPDASAM.py \
 NUM_GPUS \
 --work-dir ./work_dirs/output"
 ```
 ### Test
  ```
 bash ./tools/dist_test.sh \
-./configs/rsprompter/dgdsam.py \
+./configs/rsprompter/SPDASAM.py \
 NUM_GPUS \
 ./work_dirs/output/segm_map_liaci.pth \
 --work-dir ./work_dirs/test \
